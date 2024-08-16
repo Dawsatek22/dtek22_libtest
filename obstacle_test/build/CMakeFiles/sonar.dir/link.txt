@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/sonar.dir/sonar.cpp.o -o sonar  libHC-SR04.a -lwiringPi 

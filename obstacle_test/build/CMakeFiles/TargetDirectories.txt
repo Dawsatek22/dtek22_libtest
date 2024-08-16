@@ -1,0 +1,4 @@
+/home/t1/wpitest/obstacle_test/build/CMakeFiles/HC-SR04.dir
+/home/t1/wpitest/obstacle_test/build/CMakeFiles/sonar.dir
+/home/t1/wpitest/obstacle_test/build/CMakeFiles/edit_cache.dir
+/home/t1/wpitest/obstacle_test/build/CMakeFiles/rebuild_cache.dir

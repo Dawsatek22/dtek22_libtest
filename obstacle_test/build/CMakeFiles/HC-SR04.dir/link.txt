@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHC-SR04.a "CMakeFiles/HC-SR04.dir/HC-SR04.cpp.o"
+/usr/bin/ranlib libHC-SR04.a
