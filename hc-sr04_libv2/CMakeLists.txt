@@ -13,6 +13,6 @@ endif()
 
 install(FILES HC-SR04.h HC-SR04.cpp DESTINATION lib)
 
-add_excecutable
+add_excecutable(HC-SR04 PUBLIC HC-SR04.cpp)
 
 install(FILES HC-SR04.cpp DESTINATION include)
