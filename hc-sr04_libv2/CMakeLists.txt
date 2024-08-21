@@ -7,17 +7,12 @@ set(installable_libs HC-SR04 )
 if(TARGET HC-SR04)
   list(APPEND installable_libs HC-SR04)
 endif()
-install(TARGETS ${installable_libs} DESTINATION lib)
-
-install(FILES HC-SR04.h DESTINATION bin)
-
-install(FILES HC-SR04.cpp DESTINATION bin)
-
-install(FILES HC-SR04.h DESTINATION lib)
-
-install(FILES HC-SR04.cpp DESTINATION lib)
 
 
-install(FILES HC-SR04.h DESTINATION include)
+
+
+install(FILES HC-SR04.h HC-SR04.cpp DESTINATION lib)
+
+add_excecutable
 
 install(FILES HC-SR04.cpp DESTINATION include)
